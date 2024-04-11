@@ -1,3 +1,12 @@
+
+.contaider {
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+
+}
+
 header, main, aside, footer {
     margin: 10px;
     padding: 10px;
@@ -8,8 +17,14 @@ header {
     align-items: center;
 }
 body {
+    background-image: linear-gradient(#b12424, rgb(85, 15, 184));
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 1000px;
     margin: 0 auto;
+    height: 100vh;
+    padding-bottom: 90px;
+
 }
 .registration_form {
     display: flex;
@@ -22,17 +37,39 @@ header {
   
 main {
     background-color: #e0e0e0;
+    height: 100vh;
 }
-  
+
 aside {
     background-color: #d0d0d0;
 }
   
-footer {
+.footer {
     background-color: #c0c0c0;
+    margin-top: 0;
 }
 .sidebar {   
     height:200px;
     display: flex;
     justify-content: space-between;
+}
+.news_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.news_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.image1 {
+    width: 500px;
+    height: 500px;
+}
+.image2 {
+    width: 500px;
+    height: 500px;
 }
